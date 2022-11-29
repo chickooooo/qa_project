@@ -1,0 +1,15 @@
+{
+  "what is machine learning?": "machine learning is the science of programming computers so they can learn from data",
+  "why should we use machine learning?": "because machine learning can find patterns in data that normal human can't",
+  "name some applications of machine learning": "image classification, chatbots, data prediction & forecasting, product recommendation, bot in games",
+  "what are different types of machine learning systems?": "[supervised learning, unsupervised learning, semisupervised learning, reinforcement learning]\n[online learning, batch learning]\n[instance based learning, model based learning]",
+  "what is supervised learning?": "in supervised learning the data contains the features as well as labels",
+  "name 2 tasks that supervised learning algorithm performs": "regression and classification",
+  "name some supervised learning algorithms": "linear regression, logistic regression, decision tree, random forest, support vector machine, k nearest neighbor",
+  "what is unsupervised learning?": "in unsupervised learning the training data is unlabeled and the model tries to find pattern in the data without any human interference",
+  "name some tasks that unsupervised learning algorithm performs": "clustering, anomaly & novelty detection, dimensionality reduction, association",
+  "name some unsupervised learning algorithms": "clustering: [k-means, k-nearest neighbor, DBSCAN, hierarchical]\nanomaly detection: [one class SVM, isolation forest]\ndimensionality reduction: [PCA]\nassociation: [apriori]",
+  "what is semisupervised learning?": "many unlabled instances and few labeled instances. it combines supervised and unsupervised algorithms. e.g. identifying clusters",
+  "name some semisupervised learning algorithms": "--",
+  "what is reinforcement learning?": "the algorithm learns based on reward-penalty system"
+}
