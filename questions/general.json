@@ -20,7 +20,7 @@
   "name some challenges of machine learning": "insufficient quantity of training data\nnon-representative training data\npoor quality of data\nirrelevant features\noverfitting the training data\nunderfitting the training data",
   "what is model regularisation?": "constraining the model to make it simpler and avoid the risk of overfitting",
   "what is hyperparameter?": "a hyperparameter is the parameter of the learning algorithm",
-  "what is hyperparameter tunning?": "it refers to finding a set of parameter values for the learning algorithm, so that the algorithm is able to generalise well",
+  "what is hyperparameter tunning?": "it refers to finding a set of best parameter values for the learning algorithm, so that the algorithm is able to generalise well",
   "what do you mean by overfitting?": "when the model performs well on training data but fails to perform on test data",
   "what are the reasons for overfitting?": "small size of dataset\nmore complex model than required\ntraining model too long on same data\npresence of irrelevant features(noice)",
   "how do you overcome overfitting?": "selecting simpler model\nmodel regularisation\ngathering more data\nreducing noice in the data",
@@ -28,5 +28,9 @@
   "what are the reasons for underfitting?": "too simple model\nnot enough data\nnoice in data",
   "how do you overcome underfitting?": "selecting more powerful model with more parameters\ngathering more data\nproper feature selection\nreducing noice",
   "what is training set, test set and validation set?": "training set is the part of dataset on which you train your algorithm, test set is the remaining part of dataset on which you test your algorithm. validation set is the part of training set that acts as test set during algorithm training.",
-  "what do you mean by cross-validation?": "the model is trained multiple times on subsets of the training set and evaluated using validation set"
+  "what do you mean by cross-validation?": "the model is trained multiple times on subsets of the training set and evaluated using validation set",
+  "what is a pipeline?": "a sequence of data processing components is called a data pipeline",
+  "what is a performance matrix?": "also known as evaluation matrix. it is used evaluate the performance and quality of the model",
+  "what is an utility function?": "also called as fitness function. it measure how good the model is. higher the value, better is the model. e.g. R squared",
+  "what is a cost function?": "it is opposite of utility function. it measures how bad the model is. higher the value, worse is the model. e.g MSE"
 }

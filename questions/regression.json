@@ -1,0 +1,23 @@
+{
+  "name some performance measures for regression problem": "mean absolute error (MAE)\nmean squared error (MSE)\nroot mean squared error (RMSE)\nroot mean squared log error (RMSLE)\nR squared\nadjusted R squared",
+  "define mean absolute error": "it is defined as mean of sum of absolute difference between predicted value and actual value",
+  "what is the formula of mean absolute error?": "(1/m)sum(|y' - y|)",
+  "what are advantages of mean absolute error?": "same unit as output variable\nrobust to outliers",
+  "what are disadvantages of mean absolute error?": "graph of MAE is not differentiable",
+  "define mean squared error": "it is defined as mean of sum of squared difference between predicted value and actual value",
+  "what is the formula of mean squared error?": "(1/m)sum((y' - y)^2)",
+  "what are advantages of mean squared error?": "graph of MSE is differentiable",
+  "what are disadvantages of mean squared error?": "squared unit as output variable\nsensitive to outliers",
+  "define root mean squared error": "it is defined as root over of mean of sum of squared difference between predicted value and actual value",
+  "what is the formula of root mean squared error?": "((1/m)sum((y' - y)^2))^1/2",
+  "what are advantages of root mean squared error?": "graph of RMSE is differentiable, same unit as output variable",
+  "what are disadvantages of root mean squared error?": "sensitive to outliers",
+  "define root mean squared log error": "it is used when the output value have large deviation (0-1,000,000)",
+  "define R-squared performance measure": "R squared is a statistical measure that represents the goodness of fit of a regression model.\nthe closer the value to 1, the better is the model.\nvalue of R squared can be -ve in that case, it has achieved worst fit.\nit is an utility function (fitness function) while others are cost function.",
+  "what is the formula of R-squared?": "1 - ((sum((y - y')^2)) / ((sum((y - mean)^2)))",
+  "what are advantages of R-squared?": "it is used to compare regression models",
+  "what are disadvantages of R-squared?": "value of R squared increases or remains same when new features are added, irrespective of whether the features matters or not",
+  "define adjusted R-squared performance measure": "it is a modified version of R-squared that tells the importance of additional feature in a regression model",
+  "what is the formula of adjusted R-squared?": "1 - ((1-R^2)(N-1) / (N-P-1))\nN -> no. of samples\nP -> no. of features",
+  "what is the difference between R-squared & adjusted R-squared": "R squared increases or remains same when new features are added whereas adjusted R-squared increases if feature contributes to the model and decreases if feature does not contributes to the model"
+}
